@@ -1,7 +1,8 @@
 def prime(num)
-  num = 0 
-  puts "The current number is less than 3"
-  num += 1
-  
+while i < num
+  if num % i == 0
+      prime_array.push(i)
+  end
+  i +=1
 end
-  
+end
