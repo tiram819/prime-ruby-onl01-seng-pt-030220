@@ -1,14 +1,8 @@
-def prime(n)
-prime_array = []    
-i = 2
-if n < 2
-    return i
-end
-
-while (n % p == 0) && (i < n)
-    prime_array.push(i)
-    i += 1
-end
-return prime_array
+def prime?(num)
+   return false if num <= 1
+   (2..(num - 1)).each do |n|
+    return false if num % n == 0
+    end
+    return true
 end
 
