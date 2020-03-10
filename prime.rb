@@ -4,4 +4,4 @@ def prime(num)
     return num[i] if yield(num[i])
     i = i + 1
   end
-endlearn
+end
